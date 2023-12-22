@@ -1,0 +1,144 @@
+
+
+.home {
+    background: #FFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    b {
+        align-self: stretch;
+        color: #282828;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+    h1 {
+        color: #282828;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 54px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 62px;
+        /* 114.815% */
+        letter-spacing: -1px;
+    }
+
+    p {
+        width: 760px;
+        color: #5F6980;
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        margin: 0 auto;
+    }
+}
+
+.home__list {
+    width: 1466px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+
+    .home__item {
+        width: 310px;
+        height: 430px;
+        border: 1px solid #c0b9b9;
+        margin-left: 32px;
+        margin-top: 48px;
+
+        .img__div {
+            width: 100%;
+            height: 50%;
+
+            img {
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+        .item__div {
+            width: 100%;
+            height: 50%;
+            padding: 16px;
+            background: #ffffff;
+
+            h4 {
+                align-self: stretch;
+                color: #282828;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: start;
+            }
+
+            h6 {
+                align-self: stretch;
+                color: #3E3E59;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px;
+                text-align: start;
+            }
+
+            p {
+                width: 278px;
+                align-self: stretch;
+                color: #5F6980;
+                font-feature-settings: 'clig' off, 'liga' off;
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                text-align: start;
+                line-height: 22px;
+                margin-top: 8px;
+            }
+
+            .icon__div {
+                width: 278px;
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                margin-top: 24px;
+
+                span {
+                    width: 36px;
+                    height: 36px;
+                    border-radius: 50%;
+                    padding: 9px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    color: #000;
+                    background: #F2F4F7;
+                    &:nth-child(2){
+                        margin-left: 16px;
+                    }
+                    &:nth-child(3){
+                        margin-left: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
